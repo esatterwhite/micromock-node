@@ -1,0 +1,10 @@
+script: npm test
+language: node_js
+git:
+  depth: 3
+node_js:
+  - "6"
+  - "8"
+  - "10"
+env:
+  - NODE_ENV=test

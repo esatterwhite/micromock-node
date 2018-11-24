@@ -1,0 +1,28 @@
+{
+  "name": "minimock",
+  "version": "0.1.0",
+  "description": "Minimal HTTP Request / Response object for node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --cov -Rtap test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esatterwhite/minimock-node.git"
+  },
+  "keywords": [
+    "http",
+    "nodejs",
+    "mock",
+    "skyring"
+  ],
+  "author": "Eric Satterwhite <esatterwhite@wi.rr.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esatterwhite/minimock-node/issues"
+  },
+  "homepage": "https://github.com/esatterwhite/minimock-node#readme",
+  "devDependencies": {
+    "tap": "^12.1.0"
+  }
+}
