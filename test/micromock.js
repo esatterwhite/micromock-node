@@ -20,6 +20,7 @@ test('minimock#Request', (t) => {
     }, 'headers set')
 
     tt.equal(req.getHeader('x-test'), 'fake', 'can lookup single header')
+    tt.equal(req.headers['x-test'], 'fake', 'can lookup single header')
     tt.deepEqual(req.query, {key: 'value'}, 'query string parsed')
     tt.end()
   })
@@ -109,6 +110,7 @@ test('minimock#Response', (t) => {
     stream.pipe(res)
     stream.write(Buffer.from('foo'))
     stream.write(Buffer.from('bar'))
+
     stream.end()
   })
 
