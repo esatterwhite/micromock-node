@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esatterwhite/micro-node.git"
+    "url": "git+https://github.com/esatterwhite/micromock-node.git.git"
   },
   "keywords": [
     "http",
